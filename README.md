@@ -1,40 +1,32 @@
-zenfish Drupal Theme, built on Zen (the most downloaded Drupal theme). Responsive and based on SASS.
+ZenFish Drupal Theme, built on Zen (the most downloaded Drupal theme) with a customized Superfish Menu.
 
 Sources:
-
-zenfish_Theme.zip
 
 https://drupal.org/project/superfish
 
 https://drupal.org/project/zen
-Step-by-step guide
 
- 
 
-    Install Drupal
+Installation
 
-    cp -R zenfish_theme/ /var/www/html/kutztown/sites/all/themes/
+1. git clone https://github.com/bwiens/ZenFish.git
 
-    cp -R zen/ /var/www/html/kutztown/sites/all/themes/
+2. copy folder ZenFish_Theme into themes folder in sites/all/themes/
 
-    Install Modules and Libraries: Libraries, Superfish, JQeasing, JQuery_update, Nice Menus (?)
+3. cp -R ZenFish/ZenFish_Theme/* /var/www/html/sites/all/themes/
 
-    Sites > All > Appearence > Set as needed
+4. Install Modules and Libraries: Libraries, Superfish, JQeasing, JQuery_update, Nice Menus (?)
 
-    Structure > Blocks: Superfish: Navigation Bar
+5. Sites > All > Appearence > Set as needed
 
-    Configure: Menu Type: Navbar, Style: White (that's were all the modifications are, other minor things: see composer), Region zenfish Drupal Theme Navigation Bar
+6. Structure > Blocks: Superfish: Navigation Bar
 
-    Remove Structure > Blocks > Footer, Add Block > Custom Footer, zenfish Footer: Powered by the <a href="https://zenfishpa.org"  target="_blank">Keystone Library Network<a>
+7. Configure: Menu Type: Navbar, Style: White (that's were all the modifications are, other minor things: see composer), Region zenfish Drupal Theme Navigation Bar
 
-    Right-click Superfish Menu and Configure Block: Block Title: <none>. For the Menu Interface to work properly, you need at least 2 items since one of them is defined as .first. Keep Home as .first to activate the -9999px replacement for the House-Icon (copy over icon in appropriate directory)*.
+8. Remove Structure > Blocks > Footer, Add Block > Custom Footer, zenfish Footer: Powered by the <a href="https://zenfishpa.org"  target="_blank">Keystone Library Network<a>
 
-    * If the menu stays auto expanded on sub-itmes, play with the weight settings.
+9. Right-click Superfish Menu and Configure Block: Block Title: <none>. For the Menu Interface to work properly, you need at least 2 items since one of them is defined as .first. Keep Home as .first to activate the -9999px replacement for the House-Icon (copy over icon in appropriate directory)*.
 
- 
+* If the menu stays auto expanded on sub-itmes, play with the weight settings.
 
-As seen on http://sandbox.ship.edu/kutztown/
-Most Menu Costumizations are in white.css in the superfish library
-All zenfish Zen Theme Costumizations are in zenfish.css in zenfish_theme folder
-
-Below is a sample of what the theme will look like, minus the Kutztown branding.
+Most Menu Costumizations are in white.css in the superfish library.
