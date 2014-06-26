@@ -14,9 +14,10 @@ First, clone the theme onto your Drupal instance
 git clone https://github.com/bwiens/ZenFish.git
 ```
 
-Then, copy the ZenFish_Theme into the themes folder in /sites/all/themes/
+Then, copy the theme folders and superfish libraries (which contain css customization).
 ```
-cp -r ZenFish/ZenFish_Theme /var/www/html/sites/all/themes/
+cp -r zen/ and kln_theme/ into /var/www/html/sites/all/themes/
+cp -r superfish/ into /var/www/html/sites/all/libraries/
 ```
 
 Install Modules and Libraries:
