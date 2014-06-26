@@ -1,0 +1,355 @@
+html {
+font-family:Helvetica, Verdana, Tahoma, sans-serif;
+overflow-x: hidden;
+font-size: 95%;
+line-height:1.2em !important;
+}
+
+body {
+background-color:#fff;
+color:#444;
+}
+
+#main {
+background-color:#fff;
+padding-top:1em !important;
+}
+
+#page {
+overflow:hidden;
+}
+
+a:link,a:visited {
+color:#7e2f2b;
+text-decoration:none;
+outline: none;
+}
+
+a:hover,a:focus,a:active {
+color:#111;
+text-decoration:none;
+outline: none;
+}
+
+#header {
+padding-top:5px;
+/*background: url('mocha.png');
+background-repeat: repeat-xy;*/
+background-position: center bottom;
+background-image: url("http://sandbox.ship.edu/kutztown/sites/all/themes/kln_theme/images/header_container_background.png");
+background-repeat: repeat-x;
+background-color:#FFFFFF;
+    box-shadow: 0 0 5px 5px #999;
+    -moz-box-shadow: 0 0 5px 5px #999;
+    -webkit-box-shadow: 0 0 5px 5px #999;
+    margin-bottom: 10px;
+}
+
+#footer {
+height:35px;
+background-color:#333;
+color:#999;
+font-size:80%;
+}
+
+.region-footer a:link,.region-footer a:visited {
+color:#b5c59f; /*#ff3000 orange*/
+}
+
+#footer a:hover {
+color:#ddd;
+text-decoration:underline;
+}
+
+.item-list {
+font-size:80%;
+}
+
+.node-readmore{
+display: none !important;
+}
+
+.form-required{
+display: none !important;
+}
+
+#user-login-form {
+font-size: 90%;
+}
+
+/* Composer Theme
+.form-submit {
+color: #111;
+font-size: 90%;
+background-color:#99bbdd ;
+border-width: 1px;
+border-style: solid;
+border-color: #444;
+margin: 5px;
+}
+
+
+
+.form-submit:hover {
+font-size: 90%;
+background-color: #0081fa;
+color: white;
+transition: background-color 100ms ease-out 0s;
+}*/
+
+.form-submit {
+ margin-top:1.2em !important;
+ background-color: hsl(0, 71%, 28%) !important; 
+ background-repeat: repeat-x; 
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e15050", endColorstr="#7a1414"); 
+ background-image: -khtml-gradient(linear, left top, left bottom, from(#e15050), to(#7a1414)); 
+ background-image: -moz-linear-gradient(top, #e15050, #7a1414); 
+ background-image: -ms-linear-gradient(top, #e15050, #7a1414); 
+ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e15050), color-stop(100%, #7a1414)); 
+ background-image: -webkit-linear-gradient(top, #e15050, #7a1414); 
+ background-image: -o-linear-gradient(top, #e15050, #7a1414);
+ background-image: linear-gradient(#e15050, #7a1414); 
+ border-color: #7a1414 #7a1414 hsl(0, 71%, 20%); color: #fff !important; 
+ text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.52); -webkit-font-smoothing: antialiased; }
+
+
+
+#navigation {
+ /*margin-top: 15px;*/
+ position: relative;
+}
+
+#main {
+padding-top: 1em !important;
+max-width: 960px;
+margin: 0 auto;
+
+}
+
+#content.column {
+ margin-top: 40px;
+}
+
+#page {
+ max-width:100% !important;
+  }
+
+.header__logo {
+    display: block;
+    margin: auto !important;
+  float: none !important;
+}
+
+.header__logo-image {
+    display: block;
+    margin: auto;
+
+}
+#footer.region .block {
+width: 960px;
+margin: 0 auto;
+line-height: 0em;
+}
+
+/*Sticky Footer*/
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%
+}
+
+#main {
+  padding-bottom: 75px;
+}
+
+p#skip-link {
+ margin: 0 !important;
+}
+
+
+
+#navigation {
+float: left !important;
+width: 100% !important;
+margin-left: 0 !important;
+margin-right: -100% !important; / this and the width are pushing the content section down /
+padding: 0 !important;
+height: 3em !important;
+  }
+
+#content {
+  float: left !important;
+width: 100% !important;
+margin-left: 0 !important;
+margin-right: -1200px !important;
+margin-top: 3em !important; / moved the content down below the height of the menu */
+padding: 0 ;
+}
+
+input:focus {
+ border-color: #66AFE9;
+ box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+
+}
+
+input {
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  border-radius: 4px 4px 4px 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+
+/* Quick Slider Styling */
+
+.flex-control-nav
+{display: none;}
+
+.view-content
+{width:500px;}
+
+.flexslider
+
+{margin: auto 0;}
+.flex-nav-container 
+{ margin: 0px !important;}
+
+#block-views-flexslider-view-block
+{width:550px !important;
+position: absolute;}
+
+
+.js ARTICLE.node-13.node
+{}
+
+
+#block-views-flexslider-view-block
+{
+float:left;
+margin-right: 100px;
+clear: both;
+position: absolute;}
+
+#block-block-4
+{
+height:300px;
+overflow:hidden;
+margin-left:550px;
+}
+
+.flexslider
+{border:;}
+
+.front div#content-inner {display: none;​}
+
+ARTICLE.node-14
+{display: none;}
+
+p, pre {
+margin: 1em 0}
+
+/* Flex Slider Transperency Layer and Styling */
+
+#transpbody {
+position:absolute;
+width:100%;
+height:15.5%;
+bottom:8%;
+background-color: #FFF;
+opacity:.8;
+}
+
+#transpager {
+position:absolute;
+bottom:0%;
+height:8%;
+width:100%;
+opacity:.95;
+
+background: #6d3535; /* Old browsers */
+}
+
+/* copy & past here your gradient code!!! */
+
+
+
+#trbody {
+left:5%;
+padding-left:0;
+clear:both;
+position:absolute;
+bottom:5%;
+width:90%;
+font-size:14px;
+font-weight:300;
+}
+
+#trlink *{
+position:absolute;
+height:1.6em;
+width:6em;
+border:3px solid;
+top:80%; /* gets its property in ..-narrow.css */
+left:75.3030%;
+text-decoration:none;
+text-transform:uppercase;
+text-align:center;
+font-size:.725em;
+padding: 1em 1em;
+-ms-border-radius:0.6em;
+-webkit-border-radius:0.6em;
+-moz-border-radius:.6em;
+box-shadow:.2em .2em .4em 0em #888;
+margin:0 1em;
+}
+
+/* faculty and student grid customization*/
+
+.views-view-grid td
+{
+padding: 20px !important; 
+}
+.user-picture
+{
+float: left !important;
+}
+
+
+#trlink a {
+background: #6d3535; /* Old browsers */
+
+/* copy & past here your gradient code!!! */
+
+border-color:#FFF;
+color: white;
+}
+
+#trlink a:hover {
+background: #1e5799; /* Old browsers */
+
+/* copy & past here your gradient code!!! */ border-color:#FFF;
+color: white;
+}
+
+
+
+
+/* .field-content p {margin: 0 !important;} */ 
+
+table.views-view-grid {
+  background-color:#ccc;
+  border-radius:5px;
+-ms-border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+}
+
+
+.view-faculty-3 p {
+margin: 0 !important;
+}
+
+.view-student-view p {
+  margin: 0 !important;
+}
